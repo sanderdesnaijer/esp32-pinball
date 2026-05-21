@@ -1,0 +1,14 @@
+build/
+.pio/
+CONTENT_PLAN.md
+*.o
+*.a
+*.so
+.DS_Store
+.vscode/
+.clang-format
+*.swp
+*.swo
+*~
+.pytest_cache/
+__pycache__/
