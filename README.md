@@ -45,6 +45,14 @@ make
 ./pinball_test
 ```
 
+## Controls
+
+Touch any flipper pad to start the game from the title screen.
+
+The left flipper is wired to touch pins T8 (GPIO 33) and T9 (GPIO 32). The right flipper uses T4 (GPIO 4), T5, T6, and T7. Touching any pad on a side activates that flipper. The same touch input restarts the game after a game over.
+
+The desktop build (`./pinball_test`) runs an automated simulation and does not accept keyboard input.
+
 ## How It Works
 
 The game uses a vertical coordinate system (64 wide, 128 tall) that maps to the OLED mounted in portrait orientation. The display buffer is a 1024-byte monochrome bitmap. All drawing (lines, circles, rectangles, text) is done with custom routines, no external graphics library at the game level.
