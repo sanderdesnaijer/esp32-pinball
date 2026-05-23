@@ -1,6 +1,6 @@
 # ESP32 Pinball
 
-![ESP32 pinball running on touch pads](docs/esp32-pinball-touch.webp)
+![ESP32 pinball running on touch pads](https://www.youtube.com/watch?v=_fYJRqrt3yo)
 
 A pinball game built from scratch for the ESP32 microcontroller, rendered on a 128x64 OLED display and controlled with capacitive touch pads. No game engine, no frameworks, just C++ and physics.
 
